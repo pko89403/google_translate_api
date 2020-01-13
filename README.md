@@ -4,6 +4,7 @@
 ### 3. google-cloud-translate-api v3 beta ( automl )
 
 ## src/main.py 를 실행하세요!
+### 그전에 GCP에 로그인해서 api 사용 프로젝트에 google-cloud-translator 사용 등록해야함
 ### 1. dataset/input 폴더 내 *.csv 파일 로딩 (sample_input.csv)
 - Index, Input 을 컬럼으로 가지는 csv 파일
 ### 2. google_api_v2 적용 번역
