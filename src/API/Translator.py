@@ -8,7 +8,7 @@ from time import sleep
 
 PROJECT_PATH = os.getcwd()
 INPUT_PATH = os.path.join(PROJECT_PATH, "dataset/input")
-OUTPUT_PATH = os.path.join(PROJECT_PATH, "/Users/amore/google_translate_api_test/dataset/output/")
+OUTPUT_PATH = os.path.join(PROJECT_PATH, "dataset/output/")
 
 class Translator(object):
     def __init__(self, num_workers=1, source_language='en', target_language='ko', model='nmt'):
